@@ -60,6 +60,7 @@ use myc::row::new_row;
 use myc::value::{read_bin_values, read_text_values, serialize_bin_many};
 
 pub mod pool;
+pub mod mock_impl;
 mod opts;
 mod stmt_cache;
 use self::stmt_cache::StmtCache;
